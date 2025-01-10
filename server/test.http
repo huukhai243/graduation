@@ -1,0 +1,16 @@
+POST http://localhost:3002/registrations HTTP/1.1
+content-type: application/json
+
+{
+    "UserID": 3,
+    "RoomNumber1": 1,
+    "RoomNumber2": 2,
+    "RoomNumber3": 3
+}
+
+###
+PUT http://localhost:3002/registrations/6/active
+
+###
+GET http://localhost:3002/makePass?pass=123
+    
